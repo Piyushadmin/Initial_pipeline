@@ -1,10 +1,10 @@
 node('built-in') 
 {
-    stage('Continuous Download') 
+    stage('continuous download') 
 	{
     git 'https://github.com/sunildevops77/maven.git'
 	}
-    stage('Continuous Build') 
+    stage('continuous build') 
 	{
 	
 	}
